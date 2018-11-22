@@ -39,7 +39,7 @@ def trap(t, position, snake, ladder):
     tr = 0
     
     for i in range(10):
-        if t[i] == elem:
+        if t[i] == position:
             break
 
     if i < 5:
